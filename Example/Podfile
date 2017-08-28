@@ -1,11 +1,7 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
+source 'https://github.com/aidongsheng/adsSpecs.git'        #私有仓库地址
 
 target 'PushService_Example' do
   pod 'PushService', :path => '../'
-
-  target 'PushService_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'JPush', '~> 3.0'
 end

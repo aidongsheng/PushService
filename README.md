@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PushService
 
 [![CI Status](http://img.shields.io/travis/aidongsheng/PushService.svg?style=flat)](https://travis-ci.org/aidongsheng/PushService)
@@ -27,3 +28,6 @@ aidongsheng, coding_ai@qq.com
 ## License
 
 PushService is available under the MIT license. See the LICENSE file for more info.
+=======
+# PushService
+>>>>>>> b6b7b735e1822776809a70f1ae21dee31e35dd42

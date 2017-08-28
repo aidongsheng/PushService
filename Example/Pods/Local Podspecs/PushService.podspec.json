@@ -1,0 +1,26 @@
+{
+  "name": "PushService",
+  "version": "0.0.1",
+  "summary": "iOS 推送通知服务",
+  "homepage": "https://github.com/aidongsheng/PushService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aidongsheng": "18606563661@163.com"
+  },
+  "source": {
+    "git": "https://github.com/aidongsheng/PushService.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PushService/Classes/**/*.{h,m}",
+  "dependencies": {
+    "JPush": [
+      "~> 3.0"
+    ]
+  }
+}

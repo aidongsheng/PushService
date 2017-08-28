@@ -1,0 +1,23 @@
+PODS:
+  - JCore (1.1.5)
+  - JPush (3.0.6):
+    - JCore (~> 1.1.1)
+  - PushService (0.0.1):
+    - JPush (~> 3.0)
+
+DEPENDENCIES:
+  - JPush (~> 3.0)
+  - PushService (from `../`)
+
+EXTERNAL SOURCES:
+  PushService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCore: 9bd9c770c877c583d98b90a68792b8361974c231
+  JPush: c41be50eb1a574a66aeb68d237f00a4ec6ec3a82
+  PushService: 56cb34e2f5b735c59485edda4ac9c7bd58a13d09
+
+PODFILE CHECKSUM: 613c130b9a401f189fd3633c4f8a897bbbedeb33
+
+COCOAPODS: 1.2.1
